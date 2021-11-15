@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Game.css">
+	<title>Game!!!</title>
+</head>
+<body>
+
+
+	 <div class="flex-column main-container">
+    <!-- Title block -->
+  <section class="title-block flex-row">
+    <h3>Roshambo</h3>
+    <div class="score flex-column">
+      <div class="score-title">Score</div>
+      <div class="score-count">0</div>
+    </div>
+  </section>
+
+
+   <!-- User choice -->
+  <section class="user-choice">
+    <div class="game-card scissors"><img src="https://raw.githubusercontent.com/CompetentProgramming/rock-paper-scissors-lizard-spock/c40e3e06639b4a9ec37c3459f336e7c7ad31c768/images/icon-scissors.svg" alt=""></div>
+    <div class="game-card paper"><img src="https://raw.githubusercontent.com/CompetentProgramming/rock-paper-scissors-lizard-spock/c40e3e06639b4a9ec37c3459f336e7c7ad31c768/images/icon-paper.svg" alt=""></div>
+    <div class="game-card rock"><img src="https://raw.githubusercontent.com/CompetentProgramming/rock-paper-scissors-lizard-spock/c40e3e06639b4a9ec37c3459f336e7c7ad31c768/images/icon-rock.svg" alt=""></div>
+    <div class="game-card lizard"><img src="https://raw.githubusercontent.com/CompetentProgramming/rock-paper-scissors-lizard-spock/c40e3e06639b4a9ec37c3459f336e7c7ad31c768/images/icon-lizard.svg" alt=""></div>
+    <div class="game-card spock"><img src="https://raw.githubusercontent.com/CompetentProgramming/rock-paper-scissors-lizard-spock/c40e3e06639b4a9ec37c3459f336e7c7ad31c768/images/icon-spock.svg" alt=""></div>
+  </section>
+
+
+    <div class="section picked flex-row hidden">
+    <div class="choice flex-column">
+      <p>You picked</p>
+      <div class="user-pick"></div>
+    </div>
+    <div class="result">
+      <div class="title">You lose</div>
+      <button>Play again</button>
+    </div>   
+    <div class="choice flex-column">
+      <p>The house picked</p>
+      <div class="pc-pick"></div>
+    </div> 
+  </div>
+
+
+
+    <button class="rules-btn">Rules</button> 
+  <div class="modal-bg active"></div>
+  <div class="modal active">
+    <span class="close">
+      <img src="https://raw.githubusercontent.com/CompetentProgramming/rock-paper-scissors-lizard-spock/c40e3e06639b4a9ec37c3459f336e7c7ad31c768/images/icon-close.svg" alt="">
+    </span>
+    <div class="title">Rules</div>
+    <div class="content">
+      <img src="https://raw.githubusercontent.com/CompetentProgramming/rock-paper-scissors-lizard-spock/c40e3e06639b4a9ec37c3459f336e7c7ad31c768/images/image-rules-bonus.svg" alt="">
+    </div>
+  </div>
+
+
+
+</body>
+<script src="Game.js"></script>
+</html>
