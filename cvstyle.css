@@ -70,7 +70,7 @@ body{
 	padding-top:20px ;
 }
 .title{
-	color: #fff;
+	color: #4f71a8;
 	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -92,7 +92,7 @@ body{
 	color: lightblue;
 }
 .contactInfo ul li span{
-	color: #fff;
+	color:#4f71a8 ;
 } 
 .contactInfo.education li{
 	margin-bottom: ;
