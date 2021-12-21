@@ -94,6 +94,11 @@ body{
 .contactInfo ul li span{
 	color:#4f71a8 ;
 } 
+
+.contactInfo a{
+	text-decoration: none;
+	color:#4f71a8 ;
+}
 .contactInfo.education li{
 	margin-bottom: ;
 }
